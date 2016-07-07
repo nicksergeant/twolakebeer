@@ -1,10 +1,10 @@
 {
-  "name": "twolake",
+  "name": "twolakebeer",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start-prod": "NODE_ENV='production' node ./bin/www",
-    "start-dev": "env DEBUG='twolake:*' nodemon ./bin/www"
+    "start-dev": "env DEBUG='twolakebeer:*' nodemon ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
